@@ -7,9 +7,10 @@ import "fmt"
 //My Code
 func main() {
 
-	var name string // var  - name of var - ststic type
+	var name, lastname string = "Mesut", "Bunaldi" // var  - name of var - ststic type
 
-	name = "Mesut"
+	number := 123
+	male := "yes"
 
 	var age int
 	age = 31
@@ -17,5 +18,5 @@ func main() {
 	var isMarried bool
 	isMarried = false
 
-	fmt.Println("Hello GO!!!", name, age, isMarried)
+	fmt.Println("Hello GO!!!", name, lastname, age, isMarried, male, number)
 }

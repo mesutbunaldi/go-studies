@@ -16,9 +16,27 @@ func main() {
 	// fmt.Println(grade)
 	// fmt.Println(isPassed)
 
-	var studentName string = "john doe"
+	// var studentName string = "john doe"
 
-	studentName = "mesut bunaldi"
+	// studentName = "mesut bunaldi"
+
+	// fmt.Println(studentName)
+
+	// var x int = 100
+
+	// fmt.Println(x)
+
+	// x = "mesut" //error
+
+	// fmt.Println(x)
+
+	// var studentName string = "john doe"
+
+	// var studentName string = "meesut bunaldi"  //error
+
+	// fmt.Print(studentName)
+
+	studentName := "mesut bunaldi"
 
 	fmt.Println(studentName)
 
